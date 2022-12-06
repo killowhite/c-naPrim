@@ -1,0 +1,11 @@
+﻿string h = "hello";
+Console.WriteLine("h={0}", h);
+Console.WriteLine("Длина h = {0}", h.Length);
+Console.WriteLine("h в верхнем регистре = {0}", h.ToUpper());
+Console.WriteLine("h ={0}", h);
+Console.WriteLine("h в нижнем регистре = {0}", h.ToLower());
+Console.WriteLine("h = {0}", h);
+Console.WriteLine("h содержит e? : {0}", h.Contains("e"));
+Console.WriteLine("Замена {0}", h.Replace("lo","va"));
+Console.WriteLine("h = {0}", h);
+Console.ReadLine();
